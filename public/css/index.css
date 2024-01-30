@@ -47,7 +47,7 @@ body {
     margin: 0 1.5rem;
 }
 
-.nav_buttons li {
+.nav_buttons li a {
     background-color: #7CB097;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
@@ -55,9 +55,8 @@ body {
     color: #ffffff;
 }
 
-.nav_buttons li:hover {
+.nav_buttons li a:hover {
     background-color: rgba(106, 174, 134, 0.65);
-    cursor: pointer;
 }
 
 .nav_hamburger {
@@ -72,6 +71,7 @@ body {
     }
 
     .nav_hamburger {
+        margin: 0 -0.5rem;
         z-index: 999;
         --s: 1.25rem;
         --c: #7CB097;
