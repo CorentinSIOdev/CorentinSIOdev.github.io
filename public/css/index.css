@@ -72,7 +72,6 @@ body {
     }
 
     .nav_hamburger {
-        margin: 0 -0.5rem;
         z-index: 999;
         --s: 1.25rem;
         --c: #7CB097;
