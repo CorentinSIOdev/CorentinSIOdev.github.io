@@ -49,7 +49,7 @@ body {
 
 .nav_buttons li a {
     background-color: #7CB097;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 0.25rem;
     font-size: 0.8rem;
     color: #ffffff;
@@ -71,7 +71,7 @@ body {
     }
 
     .nav_hamburger {
-        margin: 0 -0.5rem;
+        margin-right: -0.5rem;
         z-index: 999;
         --s: 1.25rem;
         --c: #7CB097;
@@ -144,7 +144,7 @@ body {
         position: absolute;
         right: 0;
         top: 0;
-        padding:  4.55rem 1.25rem;
+        padding:  5.5rem 1.25rem;
         height: 100vh;
         background-color: #f2f2f2;
         opacity: 0.9;
@@ -167,7 +167,7 @@ body {
     }
 
     .nav_buttons.show li:nth-child(1) {
-        margin: 1rem 0;
+        margin-bottom: 1.5rem;
     }
 }
 /* -*-*- END NAVIGATION BAR -*-*- */
@@ -207,19 +207,26 @@ body {
     margin-bottom: 1rem;
 }
 
-@media only screen and (max-width: 1200px) {
-    
-}
-
-@media only screen and (max-width: 1024px) {
-    
-}
-
 @media only screen and (max-width: 768px) {
-    
+    .section_1_right_content p {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-    
+    .section_1_right_content {
+        align-items: center;
+        left: auto;
+        text-align: center;
+    }
+
+    .section_1_right_content p {
+        /* font-size: 1.85rem; */
+        font-size: 6.8vw;
+    }
+
+    .section_1_right_content p:nth-child(2), p:nth-child(4) {
+        margin-left: 0;
+    }
 }
 /* -*-*- END SECTION 1 -*-*- */
