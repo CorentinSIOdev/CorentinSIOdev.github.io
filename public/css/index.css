@@ -243,10 +243,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-.section_1.below-navbar {
-    margin-top: 90px; /* La hauteur de la navbar */
-    height: calc(100vh - 90px); /* 100vh moins la hauteur de la navbar */
-}
 
 .section_1_slogan {
     display: flex;
@@ -292,7 +288,7 @@ body {
     position: absolute;
     width: 8rem;
     filter: drop-shadow(-2.5px 2.5px 5px rgba(0, 0, 0, 0.25));
-    transform: translate(1rem, 5.4rem);
+    transform: translate(1rem, 5.5rem);
     z-index: 1;
 }
 
@@ -380,6 +376,11 @@ body {
         display: flex;
         flex-direction: column;
     }
+
+    .section_1.below-navbar {
+        margin-top: 90px;
+        height: calc(100vh - 90px);
+    }
     
     .section_1_slogan {
         align-items: center;
@@ -451,28 +452,161 @@ body {
         width: 7rem;
         transform: translateX(-0.5rem);
     }
-
-    /* .section_1_slogan p {
-        font-size: 5.5vw;
-    }
-    
-    .mockup_imac_launch {
-        width: 60vw;
-        transform: translateX(3.1rem);
-    }
-    
-    .mockup_iphone_launch {
-        width: 20vw;
-    }
-    
-    .mockup_samsung_launch {
-        width: 20vw;
-        transform: translate(0, 2.8rem);
-    }
-    
-    .section_1_availability a img {
-        width: 25vw;
-        transform: translateX(-0.5rem);
-    } */
 }
 /* -*-*- END SECTION 1 -*-*- */
+
+/* -*-*- SECTION 2 -*-*- */
+.section_2 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section_2.below-navbar {
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+}
+
+.section_2 img {
+    width: 30rem;
+    object-fit: contain;
+    margin-right: 2.5rem;
+    margin-left: 1.25rem;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+}
+
+.section_2_about_us h2 {
+    display: inline-block;
+    color: #7CB097;
+    font-size: 1.75rem;
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.section_2 p {
+    font-size: 1.25rem;
+    margin: 0 1.25rem;
+    text-align: justify;
+}
+
+.section_2 span {
+    color: #7CB097;
+    font-weight: 600;
+}
+
+.section_2_about_us h3 {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    padding: 0.5rem 1rem;
+    color: #7CB097;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+    margin-left: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section_2.below-navbar {
+        margin-top: 60px;
+        height: calc(100vh - 60px);
+    }
+
+    .section_2 img {
+        width: 25rem;
+    }
+
+    .section_2_about_us h2 {
+        font-size: 1.4rem;
+    }
+
+    .section_2 p {
+        font-size: 1.15rem;
+    }
+
+    .section_2_about_us h3 {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section_2.below-navbar {
+        margin-top: 60px;
+        height: calc(100vh - 60px);
+    }
+
+    .section_2 img {
+        width: 20rem;
+    }
+
+    .section_2_about_us h2 {
+        font-size: 1.25rem;
+    }
+
+    .section_2 p {
+        font-size: 1rem;
+    }
+
+    .section_2_about_us h3 {
+        font-size: 1.15rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_2.below-navbar {
+        margin-top: 0;
+        height: calc(100vh - 0);
+    }
+
+    .section_2 img {
+        width: 22rem;
+        margin-right: 0;
+        margin-left: 0;
+        margin: 5rem 0 2.5rem 0;
+    }
+
+    .section_2_about_us h2 {
+        font-size: 1.35rem;
+    }
+
+    .section_2 p {
+        font-size: 1.1rem;
+    }
+
+    .section_2_about_us h3 {
+        font-size: 1.25rem;
+    }
+    
+    .section_2_about_us {
+        padding-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section_2 img {
+        width: 20rem;
+        margin: -1.5rem 0 3rem 0;
+    }
+
+    .section_2_about_us h2 {
+        font-size: 1.25rem;
+    }
+
+    .section_2 p {
+        font-size: 1rem;
+    }
+
+    .section_2_about_us h3 {
+        font-size: 1.15rem;
+    }
+}
+/* -*-*- END SECTION 2 -*-*- */
