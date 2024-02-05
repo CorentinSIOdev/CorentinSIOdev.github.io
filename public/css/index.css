@@ -308,8 +308,6 @@ body {
     margin: 0 1rem;
 }
 
-/* TODO : Faire le responsive de la section 1 */
-
 @media only screen and (max-width: 1200px) {
     .section_1_slogan p {
         font-size: 1.8rem;
@@ -455,6 +453,13 @@ body {
 }
 /* -*-*- END SECTION 1 -*-*- */
 
+/* SECTION DIVIDER */
+.section_divider {
+    display: none;
+    margin: 6rem 0;
+}
+/* END SECTION DIVIDER */
+
 /* -*-*- SECTION 2 -*-*- */
 .section_2 {
     height: 100vh;
@@ -557,6 +562,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    .section_divider {
+        display: block;
+    }
+
     .section_2 {
         display: flex;
         flex-direction: column;
@@ -571,7 +580,7 @@ body {
         width: 22rem;
         margin-right: 0;
         margin-left: 0;
-        margin: 5rem 0 2.5rem 0;
+        margin: 0 0 2.5rem 0;
     }
 
     .section_2_about_us h2 {
@@ -592,6 +601,10 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+    .section_divider {
+        display: block;
+    }
+
     .section_2 img {
         width: 20rem;
         margin: 0 0 3rem 0;
