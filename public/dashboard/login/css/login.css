@@ -119,6 +119,7 @@ body {
     border: none;
     border-radius: 0.25rem;
     font-size: 1.1rem;
+    font-weight: normal;
     color: var(--primary-color);
     background-color: var(--secondary-color);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -356,7 +357,7 @@ body {
 
 @media only screen and (max-width: 480px) {
     .login_frame {
-        width: 22.5rem;
+        width: 80vw;
         padding: 1.5rem 2rem;
     }
 
