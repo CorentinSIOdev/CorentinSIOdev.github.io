@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* -*-*- REUSABLES VARIABLES -*-*- */
+:root {
+    /* -*-*- COLORS -*-*- */
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(124, 176, 151);
+}
+/* -*-*- END REUSABLES VARIABLES -*-*- */
+
+/* -*-*- SETUP PAGE -*-*- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-color);
+}
+/* -*-*- END SETUP PAGE -*-*- */
