@@ -371,24 +371,24 @@ body {
     }
     
     .login_form_input i.fa-envelope {
-        top: 2.655rem;
+        top: 2.67rem;
         font-size: 1rem;
         left: 1.2rem;
     }
     
     .login_form_input i.fa-lock {
-        top: 2.652rem;
+        top: 2.64rem;
         font-size: 1rem;
         left: 1.2rem;
     }
     
     .login_form_input i.fa-eye {
-        top: 2.7rem;
+        top: 2.75rem;
         font-size: 1rem;
     }
     
     .login_form_input i.fa-eye-slash {
-        top: 2.7rem;
+        top: 2.75rem;
         font-size: 1rem;
         right: 0.935rem;
     }
