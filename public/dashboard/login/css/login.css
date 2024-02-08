@@ -358,8 +358,8 @@ body {
 @media only screen and (max-width: 480px) {
     .login_frame {
         /* width: 22.5rem */
-        width: 90vw;
-        padding: 1.5rem 2rem;
+        width: 88.5vw;
+        padding: 1rem 1.5rem;
     }
 
     .login_frame_title h1 {
