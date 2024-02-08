@@ -362,7 +362,7 @@ body {
     }
 
     .login_frame_title h1 {
-        font-size: 1.2rem;
+        font-size: 1.15rem;
     }
     
     .login_frame_title p {
@@ -371,13 +371,13 @@ body {
     }
     
     .login_form_input i.fa-envelope {
-        top: 2.8rem;
+        top: 2.75rem;
         font-size: 1rem;
         left: 1.2rem;
     }
     
     .login_form_input i.fa-lock {
-        top: 2.8rem;
+        top: 2.75rem;
         font-size: 1rem;
         left: 1.2rem;
     }
